@@ -1,0 +1,135 @@
+html{
+    background: url(image.png);
+    background-size: 10%;
+}
+body{
+	margin: 0px auto;
+	width: 1150px;
+    min-height: 100%;
+    background: rgb(53, 83, 139);
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
+    padding-bottom: 85px;
+    perspective: 400px;
+}
+header a img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+div{
+    display: block;
+    width: 30%;
+    background: radial-gradient(rgb(69, 129, 240) 0%, rgb(12, 54, 131) 60%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, .75) 5px 5px 20px;
+}
+div h1{
+    color: rgb(53, 54, 0);
+    text-shadow: rgb(255, 252, 66) 0px 0px 5px;
+    text-shadow: rgb(255, 252, 66) 0px 0px 5px;
+}
+div a:link{
+    text-decoration: none;
+}
+div a:visited{
+    text-decoration: none;
+}
+div a:hover h1{
+    text-decoration: none;
+    color: rgb(85, 122, 190);
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+}
+div a:active h1{
+    text-decoration: none;
+    color: rgb(85, 122, 190);
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+}
+div#Map{
+    transform: rotate(45deg);
+}
+div#Stories{
+    transform: rotate(45deg);
+}
+div#Cure{
+    transform: rotate(45deg);
+}
+
+aside#Separate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+div#About{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+}
+div#About img{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+div#Product{
+    padding-top: 80px;
+    padding-right: 86px;
+    padding-left: 85px;
+    padding-bottom: 80px;
+}
+div#Qualifications{
+    padding-top: 80px;
+    padding-right: 86px;
+    padding-left: 85px;
+    padding-bottom: 80px;
+}
+div#Testing{
+    padding-top: 80px;
+    padding-right: 86px;
+    padding-left: 85px;
+    padding-bottom: 80px;
+}
+div#About h1{
+    padding-top: 45px;
+}
+aside#Separate2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 75px;
+}
+div#Map{
+    padding-top: 55px;
+    padding-right: 86px;
+    padding-left: 85px;
+}
+div#Stories{
+    padding-top: 55px;
+    padding-right: 86px;
+    padding-left: 85px;
+}
+div#Cure{
+    padding-top: 35px;
+    padding-right: 86px;
+    padding-left: 85px;
+}
+section#Left2{
+    transform: rotateY(10deg);
+}
+section#Right2{
+    transform: rotateY(-10deg);
+}
