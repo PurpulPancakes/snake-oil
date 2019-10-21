@@ -1,0 +1,94 @@
+html{
+    background: url(image.png);
+    background-size: 10%;
+}
+body{
+	margin: 0px auto;
+	width: 1150px;
+    min-height: 100%;
+    background: rgb(53, 83, 139);
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
+    padding-bottom: 85px;
+    perspective: 400px;
+}
+header a img{
+    display: block;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+section#Top2Wow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div#Pimage img{
+    width: 100%;
+}
+div#Pimage{
+    display: block;
+    width: 50%;
+    background: radial-gradient(rgb(69, 129, 240) 0%, rgb(12, 54, 131) 60%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, .75) 5px 5px 20px;
+}
+article{
+    display: block;
+    width: 80%;
+    background: radial-gradient(rgb(69, 129, 240) 0%, rgb(12, 54, 131) 60%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, .75) 5px 5px 20px;
+}
+article h2{
+    color: rgb(53, 54, 0);
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+}
+article p{
+    color: rgb(53, 54, 0);
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.2em;
+}
+blockquote{
+    color: rgb(53, 54, 0);
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+    display: block;
+    width: 80%;
+    background: radial-gradient(rgb(69, 129, 240) 0%, rgb(12, 54, 131) 60%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, .75) 5px 5px 20px;
+}
+blockquote li{
+    margin-right: 40px;
+}
+div#Ad img{
+    display: block;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
