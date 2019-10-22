@@ -40,6 +40,7 @@ div{
     margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: rgba(0, 0, 0, .75) 5px 5px 20px;
+    transition: transform .2s;
 }
 h1{
     color: rgb(53, 54, 0);
@@ -63,4 +64,10 @@ div a:active h1{
     color: rgb(85, 122, 190);
     text-shadow: rgb(255, 252, 76) 0px 0px 5px;
     text-shadow: rgb(255, 252, 76) 0px 0px 5px;
+}
+div:hover{
+    transform: scale(1.05);
+}
+div:active{
+    transform: scale(1.05);
 }
