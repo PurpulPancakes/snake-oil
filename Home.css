@@ -32,6 +32,7 @@ div{
     margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: rgba(0, 0, 0, .75) 5px 5px 20px;
+    transition: transform .2s;
 }
 div h1{
     color: rgb(53, 54, 0);
@@ -132,4 +133,10 @@ section#Left2{
 }
 section#Right2{
     transform: rotateY(-10deg);
+}
+div:hover{
+    transform: scale(1.05);
+}
+div:active{
+    transform: scale(1.05);
 }
